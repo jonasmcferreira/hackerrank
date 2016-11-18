@@ -4,7 +4,7 @@ import java.util.*;
 
 public class Anagrams {
 
-	static boolean isAnagram(String a, String b) {
+	private static boolean isAnagram(String a, String b) {
 
 		char[] ar = a.toLowerCase().toCharArray();
 		char[] br = b.toLowerCase().toCharArray();
