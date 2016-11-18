@@ -7,7 +7,7 @@ public class SimpleArraySum {
 
         Scanner s = new Scanner(System.in);
 
-        int length = s.nextInt();
+        s.nextInt();
         int sum = 0;
 
         while(s.hasNext()){
