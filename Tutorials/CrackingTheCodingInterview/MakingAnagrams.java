@@ -1,6 +1,5 @@
 import java.io.*;
 import java.util.*;
-import java.util.Hashtable;
 import java.text.*;
 import java.math.*;
 import java.util.regex.*;
