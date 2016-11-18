@@ -10,8 +10,13 @@ public class PlusMinus {
         Scanner s = new Scanner(System.in);
         s.nextInt();
 
-        double current, count, negative, positive, zeroes;
-        current= count= negative= positive= zeroes = 0;
+        double current, 
+            count, 
+            negative, 
+            positive, 
+            zeroes;
+        
+        current = count = negative = positive = zeroes = 0;
         
         while(s.hasNext()){
         
