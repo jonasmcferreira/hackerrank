@@ -13,9 +13,7 @@ public class StringTokens {
         
           System.out.println("0");  
         
-        } else if (s.length() > 400000){
-             
-        } else {
+        } else if (s.length() <= 400000){
         
             String[] result = s.split("[ !,?._'@]+");
         

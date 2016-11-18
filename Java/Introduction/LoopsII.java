@@ -29,16 +29,16 @@ class LoopsII{
         in.close();
     }
     
-    public static int calculation(int n, int a, int b){
+    public static int calculation(int count, int a, int b){
         
-        if(n < 1){
+        if(count < 1){
 
           return a;
 
         } else {
 
-          n--;
-          return  calculation(n, a, b) + (int)(Math.pow(2,n) * b);
+          count--;
+          return  calculation(count, a, b) + (int)(Math.pow(2,count) * b);
 
         } 
             
