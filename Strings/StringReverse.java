@@ -11,17 +11,7 @@ public class StringReverse {
         
         int l = A.length();
         
-        if(l%2 == 1){
-        
-           String firstHalf = A.substring(0,l/2+1);
-
-        } else {
-        
-           String firstHalf = A.substring(0,l/2);
-           
-        
-        }
-        
+        String firstHalf = A.substring(0,l/2+ l%2);
         String secondHalf = A.substring(l/2,l);
         String secondHalfReversed = new StringBuilder(secondHalf).reverse().toString();
 
