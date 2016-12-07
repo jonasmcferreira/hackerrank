@@ -37,8 +37,7 @@ class LoopsII{
 
         } else {
 
-          count--;
-          return  calculation(count, a, b) + (int)(Math.pow(2,count) * b);
+          return  calculation(count-1, a, b) + (int)(Math.pow(2,count-1) * b);
 
         } 
             
