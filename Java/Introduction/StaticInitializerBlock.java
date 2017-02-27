@@ -37,6 +37,4 @@ public class StaticInitializerBlock {
 			
 		}//end of main
 
-	}//end of class
-
-}
+	}

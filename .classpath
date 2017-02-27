@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="Algorithms/Warmup"/>
+	<classpathentry kind="src" path="Java/Algorithms"/>
+	<classpathentry kind="src" path="Java/Introduction"/>
+	<classpathentry kind="src" path="Java/Strings"/>
+	<classpathentry kind="src" path="Tutorials/30DaysOfCode"/>
+	<classpathentry kind="src" path="Tutorials/CrackingTheCodingInterview"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

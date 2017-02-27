@@ -2,7 +2,7 @@ public class Day4ClassVsInstance {
 
 	private int age;
 
-	public Person(int initialAge) {
+	public void Person(int initialAge) {
 	
 		// Add some more code to run some checks on initialAge
 		if (initialAge < 0) {
